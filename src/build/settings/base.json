@@ -1,0 +1,32 @@
+{
+    "app_name": "PeakFinder (1.0.0Alpha02 build 1011)",
+    "author": "Giovanni Larama",
+    "main_module": "src/main/python/main.py",
+    "version": "1.0.0",
+    "hidden_imports": [
+    	"pkg_resources.py2_warn",
+    	"numpy",
+    	"pyrebase",
+    	"pandas",
+    	"fpdf",
+    	"statsmodels",
+    	"scipy",
+    	"patsy",
+    	"pytz",
+    	"statsmodels.tsa.statespace._kalman_filter",
+    	"statsmodels.tsa.statespace._kalman_smoother",
+    	"statsmodels.tsa.statespace._representation",
+    	"statsmodels.tsa.statespace._simulation_smoother",
+    	"statsmodels.tsa.statespace._statespace",
+    	"statsmodels.tsa.statespace._tools",
+    	"statsmodels.tsa.statespace._filters._conventional",
+    	"statsmodels.tsa.statespace._filters._inversions",
+    	"statsmodels.tsa.statespace._filters._univariate",
+    	"statsmodels.tsa.statespace._filters._univariate_diffuse",
+    	"statsmodels.tsa.statespace._smoothers._univariate_diffuse",
+    	"statsmodels.tsa.statespace._smoothers._alternative",
+    	"statsmodels.tsa.statespace._smoothers._classical",
+    	"statsmodels.tsa.statespace._smoothers._conventional",
+    	"statsmodels.tsa.statespace._smoothers._univariate"
+    ]
+}

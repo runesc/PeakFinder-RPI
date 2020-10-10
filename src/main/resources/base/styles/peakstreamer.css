@@ -1,0 +1,74 @@
+QWidget#root {
+	background:#232526
+}
+
+QLabel#view_title {
+	color: white;
+	font: 25pt "Arial Unicode MS";
+	font-weight: 600;
+}
+
+QWidget#left_bar {
+	background-color: #1a1a1a;
+}
+
+QPushButton#btn_home, QPushButton#btn_viewer, QPushButton#btn_streamer, 
+QPushButton#btn_cloud,  QPushButton#btn_profile, QPushButton#btn_quit{
+	border:none;
+	outline:0;
+}
+
+QPushButton#btn_home:hover, QPushButton#btn_viewer:hover, QPushButton#btn_streamer:hover, 
+QPushButton#btn_cloud:hover,  QPushButton#btn_profile:hover, QPushButton#btn_quit:hover {
+	border-radius: 3%;
+	background: #0575E6;
+}
+QWidget#chart_container{
+	background-color: #414345;
+	border-radius: 3%;
+}
+
+QLabel#title{
+	color: white;
+	font: 17pt "Arial Unicode MS";
+}
+
+QLabel#peaks_val, QLabel#peaks_label, QLabel#prom_duration_val, 
+QLabel#prom_duration_label, QLabel#desv_val, QLabel#desv_label, 
+QLabel#prediction_peaks_val, QLabel#precision_val, QLabel#precision_label, 
+QLabel#error_val, QLabel#error_label {
+	color: white;
+	font: 11pt "Arial Unicode MS";
+}
+
+QLabel#peaks_val, QLabel#prom_duration_val,QLabel#desv_val, QLabel#prediction_peaks_val,
+QLabel#precision_val, QLabel#error_val {
+	font: 28pt "Arial Unicode MS";
+	font-weight: 600;
+}
+
+QPushButton#play_pause_stream, QPushButton#rec_stream, QPushButton#stop_stream, 
+QPushButton#reset_stream, QPushButton#clean_stream {
+	outline: 0;
+	border:none;
+}
+
+QPushButton#play_pause_stream:hover, QPushButton#rec_stream:hover, QPushButton#stop_stream:hover, 
+QPushButton#reset_stream:hover, QPushButton#clean_stream:hover {
+	border-radius: 3%;
+	background: #212121;
+}
+
+QPushButton#rec_stream:hover {
+	border-radius: 24%;
+	background: #212121;
+}
+
+QTextEdit#comment_box {
+	border-radius: 3%;
+	background: #212121;
+	color: #e6e6e6;
+	padding-top: 10px;
+	padding-left: 10px;
+	font: 10pt "Arial Unicode MS";
+}

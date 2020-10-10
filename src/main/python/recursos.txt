@@ -1,0 +1,17 @@
+Crear una imagen burbuja
+https://stackoverflow.com/questions/50819033/qlabel-with-image-in-round-shape
+
+Bootstrap grid layout
+https://getbootstrap.com/docs/4.0/layout/grid/
+
+Fuentes tipograficas con iconos
+https://github.com/spyder-ide/qtawesome
+
+Guia de maquetación de archivos .md
+https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
+
+Pyrebase docs
+https://github.com/thisbejim/Pyrebase
+
+Colores gradiantes
+https://uigradients.com/#RainbowBlue

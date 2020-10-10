@@ -1,0 +1,124 @@
+QWidget#root {
+	background:#232526
+}
+
+QWidget#simply_report, QWidget#complete_report {
+	border:none;
+	color: white;
+	font: 9pt "Arial Unicode MS";
+}
+
+QWidget#simply_report:hover, QWidget#complete_report:hover {
+	background: #0466c8;
+}
+
+QWidget#left_bar {
+	background-color: #1a1a1a;
+}
+
+QWidget#round_bar_primary{
+	background: #0575E6;
+	border-radius: 25
+}
+
+QWidget#chart_container{
+	background-color: #414345;
+	border-radius: 3%;
+}
+
+QWidget#chart_layer {
+	background: rgba(0,0,0, .7);
+	border-radius: 3%;
+}
+
+QLabel#view_title {
+	color: white;
+	font: 25pt "Arial Unicode MS";
+	font-weight: 600;
+}
+
+QWidget#opt_cont{
+	background: #0575E6;
+}
+
+QLabel#title{
+	color: #999;
+	font: 11pt "Arial Unicode MS";
+}
+
+QLabel#peaks_val, QLabel#peaks_label, QLabel#prom_duration_val, 
+QLabel#prom_duration_label, QLabel#desv_val, QLabel#desv_label, 
+QLabel#prediction_peaks_val, QLabel#precision_val, QLabel#precision_label, 
+QLabel#error_val, QLabel#error_label {
+	color: white;
+	font: 11pt "Arial Unicode MS";
+}
+
+QLabel#peaks_val, QLabel#prom_duration_val,QLabel#desv_val, QLabel#prediction_peaks_val,
+QLabel#precision_val, QLabel#error_val {
+	font: 28pt "Arial Unicode MS";
+	font-weight: 600;
+}
+
+
+QPushButton#btn-primary {
+	background-color: #0575E6;
+	color:white;
+	border:none;
+	font: 12pt "Calibri";
+	font-weight: 600;
+	border-radius: 3px;
+	outline: 0;
+}
+QPushButton#btn-primary:hover, QPushButton#round_btn_primary:hover {
+	background-color: #0466c8;
+}
+
+QPushButton#round_btn_primary {
+	padding-left: 1px;
+	border-radius: 25%;
+	background-color: #0575E6;
+	outline: 0;
+}
+
+QPushButton#btn-secondary {
+	background-color: transparent;
+	color:#00f260;
+	border: 1px solid #00f260;
+	font: 12pt "Calibri";
+	font-weight: 600;
+	border-radius: 3px;
+	outline: 0;
+}
+
+QPushButton#btn-secondary:hover {
+	background-color: #00e65c;
+	color:white;
+	font: 12pt "Calibri";
+	font-weight: 600;
+	border-radius: 3px;
+}
+QPushButton#btn_home, QPushButton#btn_viewer, QPushButton#btn_streamer, 
+QPushButton#btn_cloud,  QPushButton#btn_profile, QPushButton#btn_quit{
+	border:none;
+	outline: 0;
+}
+
+QPushButton#btn_home:hover, QPushButton#btn_viewer:hover, QPushButton#btn_streamer:hover, 
+QPushButton#btn_cloud:hover,  QPushButton#btn_profile:hover, QPushButton#btn_quit:hover {
+	border-radius: 3%;
+	background: #0575E6;
+}
+
+
+/*Segundo contenedor*/
+
+QWidget#model_bar {
+	
+	color:white;
+}
+
+QRadioButton {
+	color:white;
+	outline: 0;
+}

@@ -1,0 +1,16 @@
+QWidget#root{
+	background: rgba(0,0,0,.8);
+}
+
+QLabel#title{
+	font: 18pt "Arial Unicode MS";
+	color: white;
+	font-weight: 800;
+}
+QPushButton#loader_btn{
+	background: none;
+	border:none;
+	font: 13pt "Arial Unicode MS";
+	color: white;
+	font-weight: 800;
+}

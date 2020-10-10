@@ -1,0 +1,32 @@
+QWidget#danger{
+	background: tomato;
+	border-radius: 4px;
+}
+
+QWidget#primary{
+	background: #0575E6;
+	border-radius: 4px;
+}
+
+
+QLabel#title {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-radius: 0px;
+	border-bottom-color: rgba(0,0,0,0.3);
+	color: white;
+	font-size: 13px;
+	font-weight: 600;
+	padding-left: 5px;
+}
+
+QLabel#description{
+	color: white;
+	font-size: 13px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+QPushButton#close_btn {
+	background: transparent;
+}

@@ -1,0 +1,91 @@
+QWidget#root {
+	background:#232526
+}
+
+QLabel#view_title {
+	color: white;
+	font: 25pt "Arial Unicode MS";
+	font-weight: 600;
+}
+
+QWidget#chart_container{
+	background-color: #414345;
+	border-radius: 3%;
+}
+
+QWidget#left_bar {
+	background-color: #1a1a1a;
+}
+
+QPushButton#btn_home, QPushButton#btn_viewer, QPushButton#btn_streamer, 
+QPushButton#btn_cloud,  QPushButton#btn_profile, QPushButton#btn_quit{
+	border:none;
+	outline: 0;
+}
+
+QPushButton#btn_home:hover, QPushButton#btn_viewer:hover, QPushButton#btn_streamer:hover, 
+QPushButton#btn_cloud:hover,  QPushButton#btn_profile:hover, QPushButton#btn_quit:hover {
+	border-radius: 3%;
+	background: #0575E6;
+	outline: 0;
+}
+QTreeView {
+	background:transparent;
+	color:white;
+	border:none;
+	outline: 0;
+	font:9pt "Arial Unicode MS";
+}
+QHeaderView::section {
+	font:10pt "Arial Unicode MS";
+	background:#414345;
+	padding-top:10px;
+	padding-bottom: 10px;
+    color: white;
+	border:none;
+	border-bottom: 1px solid #666666;
+	outline: none;
+}
+QTreeWidget::item {
+	border-bottom: 1px solid #666666;
+	padding: 5px 0;
+}
+QTreeWidget::item:hover,QTreeWidget::item:hover:selected {
+	background-color:rgba(33,33,33,1);
+}
+QTreeWidget::item:selected {
+	background-color:rgba(33,33,33,1);
+	color: white;
+}
+
+QPushButton#download_csv,
+QPushButton#download_pdf,
+QPushButton#load_csv {
+	color:white;
+	border:none;
+	font: 12pt "Calibri";
+	font-weight: 600;
+	border-radius: 3px;
+	outline: 0;
+	border: 1px solid #0575E6;
+	margin-right: 5px;
+}
+
+QPushButton#download_csv,
+QPushButton#download_pdf,
+QPushButton#load_csv {
+	color:white;
+	border:none;
+	font: 12pt "Calibri";
+	font-weight: 600;
+	border-radius: 3px;
+	outline: 0;
+	border: 1px solid #0575E6;
+	margin-right: 5px;
+}
+
+QPushButton#download_csv:hover,
+QPushButton#download_pdf:hover,
+QPushButton#load_csv:hover {
+	background: #0575E6;
+}

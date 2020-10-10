@@ -1,0 +1,81 @@
+QWidget#root {
+	background:#232526
+}
+
+QLabel#view_title {
+	color: white;
+	font: 25pt "Arial Unicode MS";
+	font-weight: 600;
+}
+QWidget#user_data_layout{
+	/*border-top: 1px solid #707070*/
+}
+
+QWidget#left_bar {
+	background-color: #1a1a1a;
+}
+
+QPushButton#btn_home, QPushButton#btn_viewer, QPushButton#btn_streamer, 
+QPushButton#btn_cloud,  QPushButton#btn_profile, QPushButton#btn_quit{
+	border:none;
+	outline: 0;
+}
+
+QPushButton#btn_home:hover, QPushButton#btn_viewer:hover, QPushButton#btn_streamer:hover, 
+QPushButton#btn_cloud:hover,  QPushButton#btn_profile:hover, QPushButton#btn_quit:hover {
+	border-radius: 3%;
+	background: #0575E6;
+	outline: 0;
+}
+
+QWidget#bg {
+	background: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(142, 45, 226, 255), stop:1 rgba(74, 0, 224, 255));
+}
+
+QWidget#user_container {
+	border-radius: 3%;
+	background: #333333;
+}
+
+QLabel#input_label {
+	color:white;
+	font: 12pt "Arial Unicode MS";
+	font-weight: 600;
+}
+
+QLineEdit#input {
+	border:none;
+	color: white;
+	font: 9pt "Arial Unicode MS";
+	border-radius: 3%;
+	background: #212121;
+	padding-left: 10px;
+}
+
+QPushButton#btn-primary {
+	background-color: #0575E6;
+	color:white;
+	border:none;
+	font: 12pt "Calibri";
+	font-weight: 600;
+	border-radius: 3px;
+	outline: 0;
+}
+QPushButton#btn-primary:hover {
+	background-color: #0466c8;
+}
+
+QLabel#status, QLabel#status_val, QLabel#projects_label, QLabel#projects_val, QLabel#gb_label, QLabel#gb_val, QLabel#sessions, QLabel#sessions_val{
+	color: white;
+	font: 9pt "Arial Unicode MS";
+}
+
+QLabel#status_val, QLabel#projects_val, QLabel#gb_val, QLabel#sessions_val{
+	font-weight: 800;
+}
+
+QLabel#user_name{
+	color:white;
+	font-size: 14px;
+	font-weight: 600;
+}

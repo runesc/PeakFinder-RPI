@@ -1,0 +1,29 @@
+QWidget#root {
+	background:qlineargradient(spread:pad, x1:0.483, y1:0, x2:0.494, y2:1, stop:0 rgba(35, 37, 38, 255), stop:1 rgba(65, 67, 69, 255));
+}
+
+QLabel#title {
+	color:white;
+	font: 25pt "calibri";
+	font-weight: 100;
+}
+
+QWidget#button_container {
+	background-color: #212121;
+	border-radius: 7px;
+}
+
+
+QPushButton#button {
+	background-color: #0d0d0d;
+	border:none;
+	border-radius: 7px;
+	color:white;
+	font: 18pt "calibri";
+	font-weight: 100;
+	outline:0;
+}
+
+QPushButton#button:hover {
+	background-color: #0466c8;
+}
