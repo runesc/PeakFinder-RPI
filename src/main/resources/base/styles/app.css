@@ -1,0 +1,22 @@
+/* Widgets */
+QWidget#bg-dark {
+    background-color: #232526;
+}
+QWidget#bg-dark-gradient{
+    background:qlineargradient(spread:pad, x1:0.483, y1:0, x2:0.494, y2:1, stop:0 rgba(35, 37, 38, 255), stop:1 rgba(65, 67, 69, 255));
+}
+
+/* Labels */
+QLabel#view_title {
+	color: white;
+	font: 25pt "Arial Unicode MS";
+	font-weight: 600;
+}
+
+
+
+/* Components */
+QWidget#sidebar{
+    background-color: #1a1a1a;
+}
+

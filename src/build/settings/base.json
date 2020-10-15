@@ -1,5 +1,5 @@
 {
-    "app_name": "PeakFinder (1.0.0Alpha02 build 1011)",
+    "app_name": "PeakFinder for Raspberry(1.0.0Alpha01 build 1000)",
     "author": "Giovanni Larama",
     "main_module": "src/main/python/main.py",
     "version": "1.0.0",

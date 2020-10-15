@@ -41,7 +41,7 @@ class SignIn(QWidget, Firebase):
 
 		"""
 		super(SignIn, self).__init__()
-		parent.window_size.connect(self.resize_event)
+		parent.screen_size_signal.connect(self.resize_event)
 		self.parent = parent
 		self.auth = self.Auth()
 		self.loadUI()
@@ -52,7 +52,7 @@ class SignIn(QWidget, Firebase):
 	
 		self.root_container = QWidget(self)
 		self.root_container.setObjectName('root')
-		self.root_container.resize(self.parent.largo, self.parent.alto)
+		self.root_container.resize(self.parent.width(), self.parent.height())
 
 
 		#: Flex display: se oculta left_side por default (solamente cuando la pantalla es menor a 768px)

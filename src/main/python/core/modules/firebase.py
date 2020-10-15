@@ -20,7 +20,7 @@ class Firebase:
 	def Auth(self):
 		return self.firebase.auth()
 		
-	def RealTimeDB(self):
+	def Database(self):
 		return self.firebase.database()
 
 	def Storage(self):
