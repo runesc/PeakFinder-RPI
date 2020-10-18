@@ -7,19 +7,17 @@ from core.functions import percentage
 
 class Sidebar(QWidget):
     def __init__(self, parent=None, **kwargs):
-      super().__init__(parent=parent)
+        super().__init__(parent=parent)
 
-      parent.screen_size_signal.connect(self.resize_event)
-      
-      self.parent = parent
-      self.state = parent.state
-
-      self.setAttribute(Qt.WA_StyledBackground, True) # this allow bg color in root widget
-      self.render()
+        kwargs['window'].screen_size_signal.connect(self.resize_event)
+        self.state = kwargs['window'].state
+        self.setAttribute(Qt.WA_StyledBackground, True) # this allow bg color in root widget
+          
+        self.render()
+        if self.state['settings']['screen'] == 'fullScreen':  self.retranslateUI()
 
     def render(self):
-        self.setObjectName('sidebar')
-        self.btn = QPushButton("x", self)
+        self.setObjectName('bg-dark')
 
 
     def resize_event(self):
